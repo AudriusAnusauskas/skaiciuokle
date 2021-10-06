@@ -1,0 +1,20 @@
+<div class="card mb-3">
+    <div class="card-header">Staciakampio plotas</div>
+    <div class="card-body">
+        <div class="mb-3">
+            <label calss="form-label">Iveskite staciakampio ploti</label>
+            <input type="number" class="form-control" [(ngModel)] = "plotis">
+        </div>
+        <div class="mb-3">
+            <label calss="form-label">Iveskite staciakampio ilgi</label>
+            <input type="number" class="form-control" [(ngModel)] = "ilgis">
+        </div>
+        <button class="btn btn-success mb-3" (click)="skaiciuotiPlota()" >Skaiciuoju</button>
+        <hr>
+        <div class="mb-3">
+            <label class="form-label">staciakampio plotas</label>
+            <input type="number" class="form-control" [(ngModel)] = "plotas" readonly>
+        </div>
+    </div>
+</div>
+
